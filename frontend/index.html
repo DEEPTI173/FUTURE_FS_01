@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h2>Deepti Mishra</h2>
+        <div>
+            <a href="#about">About</a> 
+            <a href="#education">Education</a> 
+            <a href="#skills">Skills</a> 
+            <a href="#projects">Projects</a> 
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    <section class="hero">
+        <h1>Hello, I am Deepti Mishra</h1>
+        <p>Aspiring Software Developer</p>
+    </section>
+    <section id="about">
+        <div class="card">
+            <h2>About Me</h2>
+            <p>I am a passionate Full Stack Developer with strong knowledge of C++, JavaScript, Node.js and MySQL. I enjoy building real-world wed application and solving pratical problems through code.
+               Currently, I am expanding my skills by learning Artifical Intelligence(Gen AI) and exploring how AI can be integrated into modern web applications. I am always eager to learn new technologies and continously improve my development skills.
+            </p>
+        </div>
+    </section>
+    <section id="eduction">
+        <div class="card">
+            <h2>Education</h2>
+            <p>Bachelor's of Computer Application (BCA)</p>
+            <p>Dr.Rammanohar Lohia Avadh University, Ayodhya</p>
+            <p>2023-2026</p>
+            <p><strong>CGPA:</strong></p>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="card">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span>C++(DSA)</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Node.js</span>
+                <span>MySQL</span>
+                <span>PYTHON</span>
+                <span>PHP</span>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="card">
+            <div class="project-header">
+                <h2>Projects</h2>
+                <a href="https://github.com/DEEPTI173" target="_blank"><button class="github-btn">View All Projects</button></a>
+            </div>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-left">
+                        <h3>Grocery Delivery Website</h3>
+                        <p>E-commerce web, Login/Register & Order Place Management System</p>
+                        <p><strong>Tech:</strong>PHP, MySQL (XAMPP)</p>
+                    </div>
+                    <div class="project-right">
+                        <div class="slider-track">
+                            <img src="images/login.png" class="slide-img">
+                            <img src="images/home.png" class="slide-img">
+                            <img src="images/addToCart.png" class="slide-img">
+                            <img src="images/cart.png" class="slide-img">
+                            <img src="images/payment.png" class="slide-img">
+                            <img src="images/orderSuccess.png" class="slide-img">
+                            <img src="images/userProfile.png" class="slide-img">
+                            <img src="images/admin.png" class="slide-img">
+                            <img src="images/admin2.png" class="slide-img">
+                        </div>
+                        <!--
+                        <div class="modal" id="imageModal">
+                            <span class="closeBtn">&times;</span>
+                            <img class="modal-content" id="modalImg">
+                        </div> -->
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-left">
+                        <h3>Client Leads Management System</h3>
+                        <p>Edit, Delete & Update Management System</p>
+                        <p><strong>Tech:</strong>Node.js, Express.js, MySQL</p>
+                    </div>
+                    <div class="project-right">
+                        <div class="slider-track">
+                            <img src="images/client.jpg.png" class="slide-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-left">
+                        <h3>Data Dashboard</h3>
+                        <p>Login, Contact & Feedback Management System</p>
+                        <p><strong>Tech:</strong>PHP, MySQL (XAMPP)</p>
+                    </div>
+                    <div class="project-right">
+                        <div class="slider-track">
+                            <img src="images/data.jpg.png" class="slide-img">
+                            <img src="images/data2.jpg.png" class="slide-img">
+                        </div>
+                        <!--
+                        <div class="modal" id="imageModal">
+                            <span class="closeBtn">&times;</span>
+                            <img class="modal-content" id="modalImg">
+                        </div> -->
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-left">
+                        <h3>Local Business Website</h3>
+                        <p>E-commerce web & Live Pitch project-card</p>
+                        <p><strong>Tech:</strong>HTML, CSS, JavaScript</p>
+                    </div>
+                    <div class="project-right">
+                        <div class="slider-track">
+                            <img src="images/boutiquehome.png" class="slide-img">
+                            <img src="images/boutiquehome2.png" class="slide-img">
+                            <img src="images/shop.png" class="slide-img">
+                            <img src="images/blogs.png" class="slide-img">
+                            <img src="images/aboutus.png" class="slide-img">
+                            <img src="images/contact.png" class="slide-img">
+                        </div>
+                    </div>
+                </div>
+                <!--
+                <div class="modal" id="imageModal">
+                    <span class="closeBtn">&times;</span>
+                    <img class="modal-content" id="modalImg">
+                </div> -->
+            </div>
+            <div class="modal" id="imageModal">
+                <span class="closeBtn">&times;</span>
+                <img class="modal-content" id="modalImg">
+            </div>
+    </section>
+    <section id="contact">
+        <div class="card">
+            <div class="contact-header">
+                <div>
+                    <h2>Contact Information</h2>
+                    <p>If you want to see my contact details:</p>
+                </div>
+            </div>
+            <a href="login.html">
+                <button>Register/Login to View Contact Info</button>
+            </a>
+            <hr style="margin:20px 0;">
+            <form>
+                <input type="text" id="name" placeholder="Your Name">
+                <input type="email" id="email" placeholder="Your Email">
+                <textarea id="message" placeholder="Your Message"></textarea>
+                <button type="button" onclick="sendMessage()">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script>
+        function getContact() {
+            const token = localStorage.getItem("token");
+            fetch("http://localhost:5000/contact-info",{
+                headers: {
+                    "Authorization": token
+                }
+            })
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+                alert("Email:" + data.email);
+            })
+            .catch(err => console.error(err));
+        }
+        function sendMessage() {
+            const name = document.getElementById("name").value.trim();
+            const email = document.getElementById("email").value.trim();
+            const message = document.getElementById("message").value.trim();
+
+            if(!name || !email || !message) {
+                alert("All fields must be filled");
+                return;
+            }
+            fetch("http://localhost:5000/contact",{
+                method: "POST",
+                headers: {"Content-Type": "application/json"},
+                body: JSON.stringify({
+                    name: document.getElementById("name").value,
+                    email: document.getElementById("email").value,
+                    message: document.getElementById("message").value
+                })
+            })
+            .then(res => res.text())
+            .then(data => {
+                alert("Message Sent Successfully");
+            })
+            .catch(err => {
+                console.error(err);
+                alert("Error sending Message");
+            });
+        }
+    </script>
+    <script>
+        if(localStorage.getItem("loggedIn")){
+            document.getElementById("private").style.display = "block";
+        }
+    </script>
+    <script src="slider.js"></script>
+</body>
+</html>
